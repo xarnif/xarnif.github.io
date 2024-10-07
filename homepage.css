@@ -1,0 +1,96 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #F2F3F5; /* Light grey background */
+    color: #333333; /* Dark grey text */
+}
+
+/* Header */
+header {
+    background-color: #2D3E50; /* Dark slate blue background */
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    color: #FFB74D; /* Warm amber color */
+    font-size: 2.5em;
+}
+
+/* Navigation Bar */
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #FFB74D; /* Warm amber background */
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #2D3E50; /* Dark slate blue for text */
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    border-bottom: 3px solid #2D3E50; /* Underline effect for active tab */
+}
+
+main {
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #2D3E50;
+}
+
+main ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+main ul li {
+    margin: 10px 0;
+}
+
+main ul li a {
+    font-size: 1.2em;
+    color: #FF7043; /* Soft coral color for links */
+    text-decoration: none;
+}
+
+main ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #2D3E50;
+    padding: 20px 0;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 0.9em;
+}
